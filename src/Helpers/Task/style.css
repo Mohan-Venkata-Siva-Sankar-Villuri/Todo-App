@@ -1,0 +1,32 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width:300px;
+  margin: 1.25rem 0;
+  font-family: 'Reenie Beanie', cursive;
+  font-size:1.5rem;
+}
+.task__btn {
+  background: transparent;
+  border: none;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .task {
+    min-width:100%;
+    font-size:1rem;
+  }
+}
+
+
+@media (max-width:360px) {
+
+  .task {
+    font-size:1rem;
+  }
+  
+  
+}

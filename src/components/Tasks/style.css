@@ -1,0 +1,71 @@
+.todo__form {
+  background-color: #d3d6db;
+  max-width: 300px;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.todo__form input {
+  background-color: transparent;
+  border: none;
+  /* min-width: 100%; */
+  min-height: 36px;
+}
+
+input:focus,
+input:active {
+  outline: none;
+}
+
+.todo__btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+::placeholder {
+  font-size: 1.25rem;
+}
+
+.queue__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.queue__title h1 {
+  margin-left: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .todo__form {
+    background-color: #d3d6db;
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    border-radius: 5px;
+  }
+  .queue__title h1 {
+    font-size: 1.5rem;
+  }
+  .todo__form {
+    max-width: 100%;
+  }
+  .todo__form {
+    max-width: inherit;
+  }
+  .toDo {
+    width: 80%;
+  }
+  .todo__form input {
+    width: 100%;
+    min-height: 28px;
+  }
+  ::placeholder {
+    font-size: 1rem;
+  }
+}
